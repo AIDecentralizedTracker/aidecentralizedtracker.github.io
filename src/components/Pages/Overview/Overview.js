@@ -36,7 +36,3 @@ const TextIntroduction = {
   text_introduction_title : "Introduction",
   text_introduction : "Iexec enables deploying dapps running AI models without losing ownership of the model by keeping it secret even when executing. To keep a score of the AI performance we need to check how good the result is. If we expose the result we would lose privacy the the monetization model. Here we see some of the solutions to overcomes these issues."
 }
-
-const TextUserReview = {
-
-}
