@@ -8,7 +8,11 @@ export default class UserReview extends Component {
   render() {
     return (
       <div>
-        <div className='layout-ur-left'></div>
+        <div className='layout-ur-left'>
+            <div className='ur-text-container'>
+                
+            </div>
+        </div>
         <div className='layout-ur-right'></div>
       </div>
     )
