@@ -1,0 +1,82 @@
+:root {
+    --background: #191b1f;
+    --button-primary: #0D6EFD;
+    --button-border: #15376C;
+}
+
+.Navbar {
+    z-index: 3;
+    position: fixed;
+    background: var(--background);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: all 0.25s ease;
+    
+}
+
+
+.Navbar.active{
+    z-index: 3;
+    transition: all 0.5s ease;
+    background: rgba(25,27,31,0.6);
+    backdrop-filter: blur(20px);
+}
+
+.navbar-logo-container{
+    cursor: pointer;
+    display: flex;
+    margin-left: 4vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar-logo-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:  2.1rem;
+    color: white;
+    white-space: nowrap;
+    margin-left: 0px;
+    padding-left: 0px;
+    left: 0px;
+}
+
+.navbar-logo-img {
+    height: 45px;
+    margin-right: 10px;
+    padding-right: 0px;
+    right: 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: left;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.nav-links {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+
+}
+
+.nav-links:hover {
+    color: var(--button-primary);
+    transition: all 0.2s ease-out;
+}
