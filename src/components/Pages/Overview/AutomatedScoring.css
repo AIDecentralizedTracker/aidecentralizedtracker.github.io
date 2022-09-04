@@ -1,0 +1,53 @@
+.grid-automated-scoring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+}
+.layout-au-left{
+    margin-right: 7vw;
+}
+
+.layout-au-right{
+    margin-left: 7vw;
+}
+
+.au-text-container {
+    color: white;
+    box-sizing: border-box;
+    z-index: 2;
+    width: 390px;
+    padding: 5px 20px 20px 20px;
+    font-family: 'Inter';
+
+    background: #24272e;
+    mix-blend-mode: normal;
+    border: 0px solid #424853;;
+    border-radius: 18px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+.au-infographic{
+    height: 45vh;
+}
+.au-title{
+    margin: 20px 0px 20px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.au-subtitle{
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+    color: #d2d2d2;
+    
+}
+
+.au-text{
+    font-size: 1rem;
+    margin-bottom: 9px;
+    color: #acacac;
+    
+}
