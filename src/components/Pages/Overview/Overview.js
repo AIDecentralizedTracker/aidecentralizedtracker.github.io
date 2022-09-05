@@ -56,7 +56,7 @@ export default class Overview extends Component {
             </div>
             <div className='grid-automated-scoring'>
                 <div className='layout-au-left'>
-
+                    <img src='./automated-infographic.svg' alt='automated scoring infographic'/>
                 </div>
                 <div className='layout-au-right'>
                   <div className='au-text-container'>
