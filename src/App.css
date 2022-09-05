@@ -1,5 +1,16 @@
+:root {
+  --background: #191B1F;
+  --button-primary: #0D6EFD;
+  --button-border: #15376C;
+  --chart: #e8e8e8;
+}
+
 
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+.App{
+  background-color: var(--background);
 }
