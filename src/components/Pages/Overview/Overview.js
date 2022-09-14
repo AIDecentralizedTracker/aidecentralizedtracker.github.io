@@ -77,16 +77,16 @@ export default class Overview extends Component {
 
 const TextTheBasics = {
   "title" : "The basics",
-  "text" : "We will have a dedicated smartcontract for each dapp. The smartcontract will be used to store the score. How we derive to the score will be based on the use cases of each dapp. If we can score the dapp using an algorithm or third party data we will have a fully automated scoring system. But if we can’t than a user input will need to be used. Here we go thru both scoring systems."
+  "text" : "We will have a dedicated smartcontract for each dapp. The smartcontract will be used to store the score. How we get the score will be based on the use case of each dapp. If we can score the dapp using an algorithm we will have a fully automated scoring system. But if we can’t than a user input will need to be used. Here we go thru both scoring systems."
 }
 
 const TextIntroduction = {
   "text_introduction_title" : "Introduction",
-  "text_introduction" : "Iexec enables deploying dapps running AI models without losing ownership of the model by keeping it secret even when executing. To keep a score of the AI performance we need to check how good the result is. If we expose the result we would lose privacy the the monetization model. Here we see some of the solutions to overcomes these issues."
+  "text_introduction" : "Iexec enables deploying dapps running AI models without losing ownership of the model by keeping it secret even when executing. To keep a score of the AI performance we need to check how good the result is. If we expose the result we would lose privacy and degrade the monetization model. Here are some solutions that overcome these issues."
 }
 
 const TextUserReview = {
-  "title" : "User review",
+  "title" : "User rating system",
   "howitworks_title" : "How it works",
   "howitworks_text" : "A simple soulution, every time the dapp is used the user can rate the dapp result. The user then pushes the score to the ethereum smartcontract used to track the dapp performance. This simple solution comes with a few of problems.",
   "problems_title" : "Problems",
@@ -96,7 +96,7 @@ const TextUserReview = {
 }
 
 const TextAutomatedScoring = {
-  "title" : "Automated scoring system",
+  "title" : "Automated rating system",
   "howitworks_title" : "How it works",
   "howitworks_text" : "Instead of relying in user feedback, a second dapp is used as a oracle to recieve the result and come up with a score. The dapp will then push the score to the ethereum smartcontract.",
   "problems_title" : "Problems",
