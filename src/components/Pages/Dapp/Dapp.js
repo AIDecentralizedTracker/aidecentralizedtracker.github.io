@@ -14,6 +14,6 @@ export default class Dapp extends Component {
   }
 }
 
-TitleText = {
+let TitleText = {
     title : "Dencetralized confidential performance tracking of a machine learning dapp "
 }
