@@ -1,0 +1,114 @@
+.stats-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-left-layout{
+    margin-right: 0.56vw;
+}
+
+.s-right-layout{
+    margin-left: 0.56vw;
+}
+
+.s-left-box{
+    color: white;
+    z-index: 1;
+    width: 22vw;
+    height: 14vw;
+    position: relative;
+    
+    background: #24272e;
+    mix-blend-mode: normal;
+    border: 0px solid #424853;
+    border-radius: 18px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.473);
+}
+
+.screenshot-title{
+    position: absolute;
+    z-index: 4;
+    margin: 0px 0px 10px 20px;
+    bottom: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.screenshot-btn{
+    padding-left: 20px;
+}
+
+.screenshot-background{
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.295);
+    backdrop-filter: blur(20px);
+    width: 22vw;
+    height: 70px;
+    border-radius: 0px 0px 18px 18px;
+}
+
+.screenshot{
+    position: absolute;
+    z-index: 2;
+    width: 22vw;
+    height: 14vw;
+    object-fit:cover;
+    border-radius: 18px;
+    border: 0px solid #424853;
+}
+
+.s-right-box{
+    color: white;
+    box-sizing: border-box;
+    z-index: 2;
+    width: 40vw;
+    height: 14vw;
+    padding: 5px 20px 25px 20px;
+
+    background: #24272e;
+    mix-blend-mode: normal;
+    border: 0px solid #424853;;
+    border-radius: 18px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+.s-logo-img{
+    height: 35px;
+}
+
+.s-logo-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:  1.7rem;
+    margin-left: 10px;
+}
+
+.s-logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
+}
+
+
+.s-description{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size:  1.2rem;
+    color: rgb(214, 214, 214);
+    padding: 10px 20px;
+}
+
+.aitracker-list{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size:  1rem;
+    color: rgb(214, 214, 214);
+    padding: 7px 20px;
+}

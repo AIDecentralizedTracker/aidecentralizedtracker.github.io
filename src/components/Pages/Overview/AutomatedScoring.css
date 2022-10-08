@@ -1,19 +1,19 @@
-.grid-automated-scoring {
+.automated-scoring-grid {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 8vh;
     margin-bottom: 8vh;
 }
-.layout-au-left{
+.au-left-layout{
     margin-right: 7vw;
 }
 
-.layout-au-right{
+.au-right-layout{
     margin-left: 7vw;
 }
 
-.au-text-container {
+.au-text-box {
     color: white;
     box-sizing: border-box;
     z-index: 2;

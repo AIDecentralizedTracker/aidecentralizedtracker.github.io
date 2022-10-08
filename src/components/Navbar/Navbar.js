@@ -26,7 +26,7 @@ export default class Navbar extends Component {
         window.addEventListener('scroll',this.onScroll)
         return(
             <nav className={this.state.scroll ? 'Navbar active' : 'Navbar'}>
-                <div className='navbar-logo-container'><img className='navbar-logo-img' src="logo.png" alt='logo'/><div className='navbar-logo-text'>AI Performance Tracker </div> </div>
+                <Link to="/"><div className='navbar-logo-container'><img className='navbar-logo-img' src="logo.png" alt='logo'/><div className='navbar-logo-text'>AI Tracker </div> </div></Link>
                 
                 <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
                         {
@@ -36,7 +36,7 @@ export default class Navbar extends Component {
                         }
                 </ul>
                 
-                <Link to='/Dapp'><AppButton className='navbar-appbutton'>Launch PoC</AppButton></Link> 
+                <Link to='/Dapp'><AppButton className='navbar-appbutton'>Use cases</AppButton></Link> 
             </nav>
         )
     }

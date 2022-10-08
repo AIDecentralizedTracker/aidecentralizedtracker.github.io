@@ -1,18 +1,18 @@
-.grid-user-review {
+.user-rating-grid {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 8vh;
 }
-.layout-ur-left{
+.ur-left-layout{
     margin-right: 7vw;
 }
 
-.layout-ur-right{
+.ur-right-layout{
     margin-left: 7vw;
 }
 
-.ur-text-container {
+.ur-text-box {
     color: white;
     box-sizing: border-box;
     z-index: 2;

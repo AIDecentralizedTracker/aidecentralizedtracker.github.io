@@ -8,39 +8,39 @@ export default class Overview extends Component {
   render() {
     return (
       <div className='overview-container'>
-            <div className='grid-landing-page'>
+            <div className='landing-page-grid'>
                 <div className='layout-lp-left'>
-                    <h1 className='lp-text'>Decentalized and ownable  Ais now with performance tracking.</h1>
+                    <h1 className='lp-text'>Decentalized and ownable  Ais now with decentralized performance tracking.</h1>
                 </div>
                 <div className='layout-lp-right'>
                     <img className='lp-logo' src='./eth-logo.svg' alt='ethereum logo'/>
                 </div>
             </div>
-            <div className='grid-introduction'>
-                <div className='layout-int-left'>
-                    <div className='int-text-container'>
+            <div className='introduction-grid'>
+                <div className='int-left-layout'>
+                    <div className='int-text-box'>
                       <h2 className='int-title'>{TextIntroduction.text_introduction_title}</h2>
                       <h3 className='int-text'>{TextIntroduction.text_introduction}</h3>
                     </div>
                 </div>
-                <div className='layout-int-right'>
+                <div className='int-right-layout'>
                     <img className='int-infographic' src='./introduction-infographic.svg' alt='introduction infographic'/>
                 </div>
             </div>
-            <div className='grid-thebasics'>
-                <div className='layout-tb-left'>
+            <div className='thebasics-grid'>
+                <div className='tb-left-layout'>
                     <img src='./basics-infographic.svg' alt='basics infographic'/>
                 </div>
-                <div className='layout-tb-right'>
-                    <div className='tb-text-container'>
+                <div className='tb-right-layout'>
+                    <div className='tb-text-box'>
                       <div className='tb-title'>{TextTheBasics.title}</div>
                       <div className='tb-text'>{TextTheBasics.text}</div>
                     </div>
                 </div>
             </div>
-            <div className='grid-user-review'>
-                <div className='layout-ur-left'>
-                    <div className='ur-text-container'>
+            <div className='user-rating-grid'>
+                <div className='ur-left-layout'>
+                    <div className='ur-text-box'>
                       <div className='ur-title'>{TextUserReview.title}</div>
                       <div className='ur-showitworks-title ur-subtitle'>{TextUserReview.howitworks_title}</div>
                       <div className='ur-howitworks-text ur-text'>{TextUserReview.howitworks_text}</div>
@@ -50,16 +50,16 @@ export default class Overview extends Component {
                       <div className='ur-usecases-text ur-text'>{TextUserReview.usecases_text}</div>
                     </div>
                 </div>
-                <div  className='layout-ur-right'>
+                <div  className='ur-right-layout'>
                     <img className='ur-infographic' src='./user-review-infographic.svg' alt='user review infographic'/>
                 </div>
             </div>
-            <div className='grid-automated-scoring'>
-                <div className='layout-au-left'>
+            <div className='automated-scoring-grid'>
+                <div className='au-left-layout'>
                     <img src='./automated-infographic.svg' alt='automated scoring infographic'/>
                 </div>
-                <div className='layout-au-right'>
-                  <div className='au-text-container'>
+                <div className='au-right-layout'>
+                  <div className='au-text-box'>
                       <div className='au-title'>{TextAutomatedScoring.title}</div>
                       <div className='au-howitworks-title au-subtitle'>{TextAutomatedScoring.howitworks_title}</div>
                       <div className='au-howitworks-text au-text'>{TextAutomatedScoring.howitworks_text}</div>

@@ -1,19 +1,19 @@
-.grid-introduction{
+.introduction-grid{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.layout-int-left{
+.int-left-layout{
     margin-right: 7vw;
 }
 
-.layout-int-right{
+.int-right-layout{
     margin-left: 7vw;
 }
 
 
-.int-text-container{
+.int-text-box{
     color: white;
     box-sizing: border-box;
     z-index: 2;
@@ -33,6 +33,7 @@
 
 
 .int-title{
+    margin: 20px 0px 20px 0px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
