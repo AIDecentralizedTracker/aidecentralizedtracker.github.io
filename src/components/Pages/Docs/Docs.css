@@ -1,0 +1,67 @@
+:root {
+    --background: #191B1F;
+    --button-primary: #0D6EFD;
+    --button-border: #15376C;
+}
+
+
+.docs-container{
+    background: var(--background);
+    width: 100vw;
+    height: 90vh;
+    padding: 4vh 5vw;
+    
+}
+
+.docs-layout-01{
+    margin-top: 20vh;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: #1441f5;
+}
+.docs-box-01 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: left;
+    align-items: top;
+}
+
+.docs-01-number {
+    margin-right: 1vw;
+    font-size: 2.5rem;
+    font-family: 'inter', 'sans-serif';
+    font-weight: 600;
+    width: 3rem;
+    color: white;
+}
+
+.docs-01-text {
+    padding: 10px;
+    width: 60vw;
+    background: #757575;
+    border: 1px solid #757575;
+    border-radius: 3px;
+    color: white;
+    font-family: 'inter', 'sans-serif';
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.docs-layout-02{
+    margin-top: 40vh;
+}
+
+.docs-02-github-link-text {
+    color: white;
+}
+
+.docs-02-github-logo{
+    height: 20px;
+}
