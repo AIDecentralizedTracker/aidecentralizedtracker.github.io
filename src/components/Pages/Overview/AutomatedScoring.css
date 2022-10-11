@@ -52,3 +52,15 @@
     color: #acacac;
     
 }
+
+
+@media screen and (max-width: 960px){
+    
+    .automated-scoring-grid{
+        flex-direction: column;
+    }
+
+    .au-left-layout{
+        display: none;
+    }
+}

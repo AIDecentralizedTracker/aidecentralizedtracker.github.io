@@ -44,3 +44,11 @@
 
     color: #AEAEAE;
 }
+
+
+@media screen and (max-width: 960px){
+    
+    .thebasics-grid{
+        flex-direction: column;
+    }
+}

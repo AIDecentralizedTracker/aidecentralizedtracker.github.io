@@ -93,7 +93,7 @@ const TextUserReview = {
   "problems_title" : "Problems",
   "problems_text" : "User rating is unrealable, can be filled with spam, or even malicues party can sabotage the score of competing dapps",
   "usecases_title" : "Use cases",
-  "usecases_text" : "Art, writing anything subjective usualy is hard to rate it by a code"
+  "usecases_text" : "Art generation, text generation and anything subjective that is usualy hard to rate it by a code"
 }
 
 const TextAutomatedScoring = {
@@ -101,9 +101,9 @@ const TextAutomatedScoring = {
   "howitworks_title" : "How it works",
   "howitworks_text" : "Instead of relying in user feedback, a second dapp is used as a oracle to recieve the result and come up with a score. The dapp will then push the score to the ethereum smartcontract.",
   "problems_title" : "Problems",
-  "problems_text" : "Can’t be used in many use cases focused on subjective stuf like art, writing . But even for writing it can be check for grammar and etc.",
+  "problems_text" : "Can’t be used in many use cases focused on subjective results like generating, generating text.",
   "usecases_title" : "Use cases",
-  "usecases_text" : "Check for grammar, check weather data, market data, anuthing that is used for prediction."
+  "usecases_text" : "Weather prediction, market prediction"
 
 
 }
