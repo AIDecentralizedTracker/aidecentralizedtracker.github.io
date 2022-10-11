@@ -12,7 +12,7 @@ export default class Dapp extends Component {
                         <h1 className='t-text'>{TitleText.title}</h1>
                     </div>
                 </div>
-                <PredictMeDapp token={Tokens[0]}/>
+                <PredictMeDapp className="dapp-predictme" token={Tokens[0]}/>
             </div>
         </div>
     )

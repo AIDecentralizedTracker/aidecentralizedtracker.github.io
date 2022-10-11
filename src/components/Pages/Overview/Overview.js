@@ -12,7 +12,7 @@ export default class Overview extends Component {
                 <div className='layout-lp-left'>
                     <h1 className='lp-text'>Decentalized Ais now with decentralized performance tracking.</h1>
                     <h2 className='lp-text-poweredbyixec'>Powered by Iexec</h2>
-                </div>
+                </div> 
                 <div className='layout-lp-right'>
                     <img className='lp-logo' src='./eth-logo.svg' alt='ethereum logo'/>
                 </div>
@@ -78,7 +78,7 @@ export default class Overview extends Component {
 
 const TextTheBasics = {
   "title" : "The basics",
-  "text" : "We will have a dedicated smartcontract for each dapp. The smartcontract will be used to store the score. How we get the score will be based on the use case of each dapp. If we can score the dapp using an algorithm we will have a fully automated scoring system. But if we can’t than a user input will need to be used. Here we go thru both scoring systems."
+  "text" : "We will have a dedicated smartcontract for each dapp. The smartcontract will be used to track the ai performance overtime. How we score the dapp depends on the machine leanrning model. If we can score the machine learning result using code we will have a fully automated scoring system for the dapp. If the result of the machine learning model can't be score by code wi will need use input for it. Here we examine botth use cases"
 }
 
 const TextIntroduction = {
@@ -89,21 +89,21 @@ const TextIntroduction = {
 const TextUserReview = {
   "title" : "User rating system",
   "howitworks_title" : "How it works",
-  "howitworks_text" : "A simple soulution, every time the dapp is used the user can rate the dapp result. The user then pushes the score to the ethereum smartcontract used to track the dapp performance. This simple solution comes with a few of problems.",
+  "howitworks_text" : "A simple solution, every time the dapp is used the user can rate the dapp result. The user then pushes the score to the ethereum smartcontract used to track the dapp performance. This simple solution comes with a few of problems.",
   "problems_title" : "Problems",
-  "problems_text" : "User rating is unrealable, can be filled with spam, or even malicues party can sabotage the score of competing dapps",
+  "problems_text" : "User rating is unrealable, can be filled with spam, or even malicues party can sabotage the score of competing dapps.",
   "usecases_title" : "Use cases",
-  "usecases_text" : "Art generation, text generation and anything subjective that is usualy hard to rate it by a code"
+  "usecases_text" : "Art generation, text generation and anything subjective that is usually hard to rate by a code."
 }
 
 const TextAutomatedScoring = {
   "title" : "Automated rating system",
   "howitworks_title" : "How it works",
-  "howitworks_text" : "Instead of relying in user feedback, a second dapp is used as a oracle to recieve the result and come up with a score. The dapp will then push the score to the ethereum smartcontract.",
+  "howitworks_text" : "Instead of relying on user feedback, a second dapp is used as a oracle to recieve the result and score it. The dapp will then push the score to the ethereum smartcontract.",
   "problems_title" : "Problems",
-  "problems_text" : "Can’t be used in many use cases focused on subjective results like generating, generating text.",
+  "problems_text" : "Can’t be used in many use cases focused on subjective results like generating images, generating text etc.",
   "usecases_title" : "Use cases",
-  "usecases_text" : "Weather prediction, market prediction"
+  "usecases_text" : "Weather prediction, market prediction."
 
 
 }

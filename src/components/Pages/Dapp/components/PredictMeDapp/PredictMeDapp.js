@@ -21,8 +21,8 @@ function PredictMeDapp(props) {
         </div>
         <div className='s-right-layout'>
             <div className='s-right-box'>
-              <h2>Description</h2>
-              <p>{AboutText.text}</p>
+              <h2 className='predictme-title'>Description</h2>
+              <p className='predictme-description'>{AboutText.text}</p>
             </div>
         </div>
     </div>

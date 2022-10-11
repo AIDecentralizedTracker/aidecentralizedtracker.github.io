@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3vh;
 }
 
 .s-left-layout{
@@ -111,4 +112,18 @@
     font-size:  1rem;
     color: rgb(214, 214, 214);
     padding: 7px 20px;
+}
+
+.predictme-title{
+    margin: 20px 20px 20px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.predictme-description{
+    margin: 0px 20px 20px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
 }
