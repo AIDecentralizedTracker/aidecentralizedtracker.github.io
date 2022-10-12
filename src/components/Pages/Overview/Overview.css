@@ -42,7 +42,16 @@
     z-index: 2;
     display: block;
     text-align: right;
+    font-size: 1.5rem;
+    font-family: 'inter', 'sans-serif';
+    font-weight: 400;
+    color: white;
     margin-right: 15vw;
+}
+
+.iexec-logo-01{
+    height: 30px;
+    width: auto;
 }
 
 .lp-logo{

@@ -11,7 +11,7 @@ export default class Overview extends Component {
             <div className='landing-page-grid'>
                 <div className='layout-lp-left'>
                     <h1 className='lp-text'>Decentalized Ais now with decentralized performance tracking.</h1>
-                    <h2 className='lp-text-poweredbyixec'>Powered by Iexec</h2>
+                    <h2 className='lp-text-poweredbyixec'>Powered by <img className="iexec-logo-01" src="./iexec_logo_01.png"></img></h2>
                 </div> 
                 <div className='layout-lp-right'>
                     <img className='lp-logo' src='./eth-logo.svg' alt='ethereum logo'/>
