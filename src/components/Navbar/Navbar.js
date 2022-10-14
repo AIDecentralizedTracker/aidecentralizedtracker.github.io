@@ -9,6 +9,10 @@ export default class Navbar extends Component {
     state = {clicked : false,
             scroll : false}
 
+
+    handleClick = () => {
+        this.setState({clicked : !this.state.clicked})
+    }
    
     onScroll = () => {
         if(window.scrollY >= 80){
@@ -27,7 +31,9 @@ export default class Navbar extends Component {
         return(
             <nav className={this.state.scroll ? 'Navbar active' : 'Navbar'}>
                 <Link to="/"><div className='navbar-logo-container'><img className='navbar-logo-img' src="logo.png" alt='logo'/><div className='navbar-logo-text'>AI Tracker </div> </div></Link>
-                
+                <div className='menu-icon' onClick={this.handleClick}>
+                <i className={this.state.clicked ? 'lni lni-cross-circle' :'lni lni-menu'  }/>
+                </div>
                 <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
                         {
                            MenuItems.map((item,index)=>{

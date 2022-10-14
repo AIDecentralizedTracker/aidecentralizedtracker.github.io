@@ -8,6 +8,11 @@ const MenuItems = [
         title : "Docs",
         url : "/Docs",
         cName : 'nav-links'
+    },
+    {
+        title : "Use cases",
+        url : "/Dapp",
+        cName : 'nav-links'
     }
 ]
 
