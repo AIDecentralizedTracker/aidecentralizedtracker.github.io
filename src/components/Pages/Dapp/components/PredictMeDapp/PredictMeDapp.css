@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3vh;
+    margin: 3vh 5vw 0vh 5vw;
 }
 
 .s-left-layout{
@@ -17,7 +17,7 @@
     color: white;
     z-index: 1;
     width: 22vw;
-    height: 14vw;
+    height: 250px;
     position: relative;
     
     background: #24272e;
@@ -57,7 +57,7 @@
     position: absolute;
     z-index: 2;
     width: 22vw;
-    height: 14vw;
+    height: 250px;
     object-fit:cover;
     border-radius: 18px;
     border: 0px solid #424853;
@@ -67,8 +67,7 @@
     color: white;
     box-sizing: border-box;
     z-index: 2;
-    width: 40vw;
-    height: 14vw;
+    max-height: 20vw;
     padding: 5px 20px 25px 20px;
 
     background: #24272e;
