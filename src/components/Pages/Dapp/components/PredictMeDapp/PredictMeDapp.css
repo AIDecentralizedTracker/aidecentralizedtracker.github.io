@@ -127,3 +127,24 @@
     font-style: normal;
     font-weight: 400;
 }
+
+@media screen and (max-width: 960px){
+    .s-right-box{
+        display: none;
+    }
+    
+    .s-left-box{
+        width: 85vw;
+        height: 30vh;
+    }
+
+    .screenshot{
+        width: 85vw;
+        height: 20vh;
+    }
+
+    .screenshot-background{
+        width: 85vw;
+        height: 10vh;
+    }
+}

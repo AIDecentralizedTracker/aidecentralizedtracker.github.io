@@ -68,10 +68,13 @@
 
 @media screen and (max-width: 960px){
 
+
     .overview-container{
         width: 100%;
         
     }
+
+
 
     .layout-lp-left{
         margin-left: 12vw;
