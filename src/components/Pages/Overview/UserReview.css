@@ -60,11 +60,19 @@
         flex-direction: column;
     }
 
+    .ur-text-box {
+    width: 85vw;
+    }
+
     .ur-left-layout{
         margin-right: 0px;
     }
     
     .ur-right-layout{
         margin-left: 0px;
+    }
+
+    .ur-infographic{
+        width: 70vw;
     }
 }

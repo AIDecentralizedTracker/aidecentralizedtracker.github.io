@@ -30,7 +30,7 @@ export default class Overview extends Component {
             </div>
             <div className='thebasics-grid'>
                 <div className='tb-left-layout'>
-                    <img src='./basics-infographic.svg' alt='basics infographic'/>
+                    <img className='tb-infographic' src='./basics-infographic.svg' alt='basics infographic'/>
                 </div>
                 <div className='tb-right-layout'>
                     <div className='tb-text-box'>

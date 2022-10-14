@@ -52,8 +52,26 @@
         flex-direction: column;
     }
 
+    .thebasics-grid {
+        margin-top: 40px;
+    }
+
+    .tb-text-box {
+        width: 85vw;
+    }
+
     .tb-right-layout{
         margin-left: 0px;
     }
+
+    .tb-infographic{
+        width: 70vw;
+    }
+
+    .tb-left-layout{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    
 
 }

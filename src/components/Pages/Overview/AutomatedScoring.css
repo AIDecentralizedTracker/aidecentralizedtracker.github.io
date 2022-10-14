@@ -56,8 +56,16 @@
 
 @media screen and (max-width: 960px){
     
+    .automated-scoring-grid {
+        margin-top: 0px;
+    }
+
     .automated-scoring-grid{
         flex-direction: column;
+    }
+
+    .au-text-box {
+        width: 85vw;
     }
 
     .au-left-layout{

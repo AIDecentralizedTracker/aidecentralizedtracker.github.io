@@ -54,6 +54,14 @@
         flex-direction: column;
     }
 
+    .int-text-box{
+    width: 85vw;
+    }
+
+    .int-left-layout{
+        margin-right: 0px;
+    }
+
     .int-right-layout{
         display: none;
     }
