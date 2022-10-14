@@ -51,4 +51,9 @@
     .thebasics-grid{
         flex-direction: column;
     }
+
+    .tb-right-layout{
+        margin-left: 0px;
+    }
+
 }

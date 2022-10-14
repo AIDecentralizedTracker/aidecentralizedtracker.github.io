@@ -63,4 +63,9 @@
     .au-left-layout{
         display: none;
     }
+
+    .au-right-layout{
+        margin-left: 0px;
+    }
+
 }

@@ -59,4 +59,12 @@
     .user-rating-grid{
         flex-direction: column;
     }
+
+    .ur-left-layout{
+        margin-right: 0px;
+    }
+    
+    .ur-right-layout{
+        margin-left: 0px;
+    }
 }
