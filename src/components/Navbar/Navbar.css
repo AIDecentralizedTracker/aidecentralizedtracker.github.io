@@ -195,7 +195,7 @@ a {
         transition: 250ms;
     }
 
-    Button {
+    .appbutton-btn {
         display: none;
     }
 }
