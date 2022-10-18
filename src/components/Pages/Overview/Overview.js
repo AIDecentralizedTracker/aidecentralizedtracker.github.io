@@ -10,7 +10,7 @@ export default class Overview extends Component {
       <div className='overview-container'>
             <div className='landing-page-grid'>
                 <div className='layout-lp-left'>
-                    <h1 className='lp-text'>Decentalized Ais now with decentralized performance tracking.</h1>
+                    <h1 className='lp-text'>Performance Scoring Dapp for Machine Learning AI models.</h1>
                     <h2 className='lp-text-poweredbyixec'>Powered by <img className="iexec-logo-01" src="./iexec_logo_01.png"></img></h2>
                 </div> 
                 <div className='layout-lp-right'>
