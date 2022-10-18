@@ -20,6 +20,6 @@ export default class Dapp extends Component {
 }
 
 const TitleText = {
-    title : "Dencetralized dapps using AI Tracker "
+    title : "Decentralized Dapps using AI Tracker "
 }
 

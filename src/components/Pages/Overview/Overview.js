@@ -78,32 +78,32 @@ export default class Overview extends Component {
 
 const TextTheBasics = {
   "title" : "The basics",
-  "text" : "We will have a dedicated smartcontract for each dapp. The smartcontract will be used to track the ai performance overtime. How we score the dapp depends on the machine leanrning model. If we can score the machine learning result using code we will have a fully automated scoring system for the dapp. If the result of the machine learning model can't be score by code wi will need use input for it. Here we examine botth use cases"
+  "text" : "We will have a dedicated smart contract for each Dapp. The smart contract will be used to track the performance of the application over time. How we score the Dapp depends on the machine leanrning model. If we can score the machine learning result using code, we will have a fully automated scoring system for the Dapp. If the result of the machine learning model cannot be score by code, we will need to use inputs for this. Here we look at the two use cases."
 }
 
 const TextIntroduction = {
   "text_introduction_title" : "Introduction",
-  "text_introduction" : "Iexec enables deploying dapps running AI models without losing ownership of the model by keeping it secret even when executing. To keep a score of the AI performance we need to check how good the result is. If we expose the result we would lose privacy and degrade the monetization model. Here are some solutions that overcome these issues."
+  "text_introduction" : "IExec allows you to deploy dapps running AI models without losing ownership of the model by keeping it secret even during its execution. To evaluate the performance of the AI, we need to check the quality of the result. If we expose the result, we will lose privacy and degrade the monetization model. Here are some solutions that overcome these problems."
 }
 
 const TextUserReview = {
   "title" : "User rating system",
   "howitworks_title" : "How it works",
-  "howitworks_text" : "A simple solution, every time the dapp is used the user can rate the dapp result. The user then pushes the score to the ethereum smartcontract used to track the dapp performance. This simple solution comes with a few of problems.",
+  "howitworks_text" : "A simple solution, each time the Dapp is used, the user can rate the Dapp's result. The user then sends the score to the Ethereum smart contract used to track the performace of the Dapp. This simple solution comes with some problems.",
   "problems_title" : "Problems",
-  "problems_text" : "User rating is unrealable, can be filled with spam, or even malicues party can sabotage the score of competing dapps.",
+  "problems_text" : "The user's evaluation is infeasible, may be filled with spam, or even malicues parties that can sabotage the score of competing Dapps.",
   "usecases_title" : "Use cases",
-  "usecases_text" : "Art generation, text generation and anything subjective that is usually hard to rate by a code."
+  "usecases_text" : "Art generation, text generation, and anything subjective that is generally difficult to evaluate by code."
 }
 
 const TextAutomatedScoring = {
   "title" : "Automated rating system",
   "howitworks_title" : "How it works",
-  "howitworks_text" : "Instead of relying on user feedback, a second dapp is used as a oracle to recieve the result and score it. The dapp will then push the score to the ethereum smartcontract.",
+  "howitworks_text" : "Instead of relying on user feedback, a second application is used as an oracle to receive the result and score it. The Dapp will then push the score to the Ethereum smart contract.",
   "problems_title" : "Problems",
-  "problems_text" : "Can’t be used in many use cases focused on subjective results like generating images, generating text etc.",
+  "problems_text" : "Cannot be used in many use cases that focus on subjective results, such as generating images, text, etc.",
   "usecases_title" : "Use cases",
-  "usecases_text" : "Weather prediction, market prediction."
+  "usecases_text" : "Weather forecasting, market prediction."
 
 
 }

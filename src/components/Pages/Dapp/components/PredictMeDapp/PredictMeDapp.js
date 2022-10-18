@@ -31,6 +31,6 @@ function PredictMeDapp(props) {
 
 const AboutText = {
   title : "About",
-  text : "The dapp is a price predicion machine learning model. When you buy a computation, the iexec workers will execute the ml model and you will get a prediction.The prediction is encrypted only for you and for the AI Tracker oracle, no one else can see the prediction. When the required time has passed the oracle will fire up and check if the dapp has correctly predicted the market. The AI Tracker tracks the number of predictions and number of correct/incorrect predictions."
+  text : "The Dapp is a price prediction machine learning model. When you buy a calculation, iExec workers will run the ML model and you will get a prediction. The prediction is encrypted only for you and for the AI Tracker Oracle, nobody else can see the prediction. When the required time is up, the Oracle triggers and checks if the Dapp has correctly predicted the market. The AI Tracker tracks the number of predictions and the number of correct/incorrect predictions."
 }
 export default PredictMeDapp
