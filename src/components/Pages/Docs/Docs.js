@@ -5,7 +5,7 @@ export default class Docs extends Component {
     return (
       <div className='docs-container'>
            <div className='docs-layout-01'>
-          <h1>How to monitor the performance of your IExec machine learning application:</h1>
+          <h1>How to monitor the performance of your IExec machine learning application?</h1>
           <div className='docs-box-01'>
               <div className='docs-01-number'>1</div>
               <div className='docs-01-text'><div>Create ML Dapp.</div></div>
