@@ -83,7 +83,7 @@ const TextTheBasics = {
 
 const TextIntroduction = {
   "text_introduction_title" : "Introduction",
-  "text_introduction" : "IExec allows you to deploy dapps running AI models without losing ownership of the model by keeping it secret even during its execution. To evaluate the performance of the AI, we need to check the quality of the result. If we expose the result, we will lose privacy and degrade the monetization model. Here are some solutions that overcome these problems."
+  "text_introduction" : "IExec allows you to deploy Dapps running AI models without losing ownership of the model by keeping it secret even during its execution. To evaluate the performance of the AI, we need to check the quality of the result. If we expose the result, we will lose privacy and degrade the monetization model. Here are some solutions that overcome these problems."
 }
 
 const TextUserReview = {
