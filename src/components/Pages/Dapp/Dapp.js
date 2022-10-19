@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './Dapp.css'
 import PredictMeDapp from './components/PredictMeDapp/PredictMeDapp'
-import {Tokens} from './Tokens'
 export default class Dapp extends Component {
   render() {
     return (
